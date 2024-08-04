@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="logo-alura" src="./assets/logo-alura.png" alt="Logo da Alura">
+        </header>
+
+        <main class="conteudo">
+            <section class="decodificador-insercao">
+                <textarea class="decodificador-insercao__texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+                <div class="info-botoes">
+
+                    <div class="informacao">
+                        <img src="./assets/simbolo-atencao.png" alt="Símbolo de informação">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+    
+                    <div class="botoes">
+                        <button class="bnt-criptografar" onclick="btnCriptografar()">Criptografar</button>
+                        <button class="bnt-descriptografar" onclick="btnDesriptografar()">Descriptografar</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="decodificador-resultado">
+                <img class="imagem-personagem" src="./assets/img.png" alt="Personagem olhando para um diamante">
+                <h6 class="mensagem-informativa" >Nenhuma mensagem encontrada</h6>
+                <p class="mensagem-informativa-texto" >Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p>Resolução do desafio do Programa ONE Alura+Oracle, por David Melo</p>
+            <div>
+
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

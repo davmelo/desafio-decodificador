@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+}
+
+.logo-alura {
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 7%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10%;
+    gap: 80px;
+}
+
+.decodificador-insercao {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 150px;
+}
+
+.decodificador-insercao__texto {
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0A3871;
+    background-color: transparent;
+}
+
+.decodificador-insercao__texto:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.info-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.informacao {
+    display: flex;
+    gap: 8px;
+    font-size: 0.75rem;
+}
+
+.botoes {
+    display: flex;
+    gap: 24px;
+}
+
+.bnt-criptografar {
+    padding: 24px 0px;
+    border-radius: 24px;
+    width: 50%;
+    cursor: pointer;
+    border: 2px solid #D8DFE8 ;
+    background-color: #0A3871;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #D8DFE8;
+}
+
+.bnt-descriptografar {
+    padding: 24px 0px;
+    border-radius: 24px;
+    width: 50%;
+    cursor: pointer;
+    border: 2px solid #0A3871 ;
+    background-color: #D8DFE8;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.decodificador-resultado {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    padding: 20px 32px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagem-personagem {
+    width: 70%;
+}
+
+.mensagem-informativa {
+    padding-top: 32px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343A40;
+}
+
+.mensagem-informativa-texto {
+    padding-top: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+}
+
+.decodificador-resultado__texto {
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0A3871;
+    background-color: transparent;
+}
+
+.decodificador-resultado__texto:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.bnt-copiar {
+    padding: 24px 0px;
+    border-radius: 24px;
+    width: 70%;
+    cursor: pointer;
+    border: 2px solid #0A3871 ;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.rodape {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .conteudo {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .imagem-personagem {
+        width: 0%;
+    }
+
+    .decodificador-resultado {
+        padding-bottom: 6%;
+    }
+
+}
